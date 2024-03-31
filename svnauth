@@ -1,0 +1,7 @@
+[calc:/branches/calc/bug-142]
+harry = rw
+sally = r
+
+# give sally write access only to the 'testing' subdir
+[calc:/branches/calc/bug-142/testing]
+sally = rw
